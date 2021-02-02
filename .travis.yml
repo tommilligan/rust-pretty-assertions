@@ -16,7 +16,7 @@ rust:
   - nightly
   - beta
   - stable
-  - 1.35.0
+  - 1.37.0
 
 # run only one job first to see if it fails, then run the rest
 jobs:
