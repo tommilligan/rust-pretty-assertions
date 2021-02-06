@@ -23,3 +23,14 @@ ansi_term = "0.11.0"
 [target.'cfg(windows)'.dependencies]
 output_vt100 = "0.1.2"
 ctor = "0.1.9"
+
+[dev-dependencies]
+criterion = { version = "0.3.4", features = ["html_reports"] }
+
+[[bench]]
+name = "macros"
+harness = false
+
+[[bench]]
+name = "pretty_diff"
+harness = false
